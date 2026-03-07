@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ping Pong</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🏓 Ping Pong</h1>
+
+<div class="menu">
+<button id="singleBtn">Single Player</button>
+<button id="twoBtn">2 Player</button>
+<button id="restartBtn">Restart</button>
+<div class="controls">
+
+Speed
+<input type="range" id="speedControl" min="2" max="12" value="5">
+
+<button id="doubleBall">Double Ball</button>
+<button id="slowMotion">Slow Motion</button>
+
+</div>
+</div>
+
+<div class="scoreboard">
+<span id="p1Score">0</span> : <span id="p2Score">0</span>
+</div>
+
+<div id="table">
+
+<div id="paddle1" class="paddle"></div>
+<div id="paddle2" class="paddle"></div>
+
+<div id="ball"></div>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
